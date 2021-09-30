@@ -1,0 +1,55 @@
+$color-bg-list: #F6F6F6;
+$color-num-list: #FFF;
+$color-bg-num: #9356dc;
+$color-icon-list: #707070;
+$color-icon-list-hover: #9356dc;
+$color-bg-list-hover: #f4ecfe;
+
+.fonct {
+    padding: 3rem 1rem 2.5rem 1rem;
+    &--list {
+        margin-top: 2rem;
+        padding: 0;
+        counter-reset: compteListe;
+    }
+    .f-l--block{
+        cursor: pointer;
+        padding: 1.8rem;
+        margin: 0 .3rem 1.5rem .75rem;
+        box-shadow: 0.25rem 0.25rem 0.5rem rgba(0,0,0,.125);
+        border-radius: 1.25rem;
+        background-color: $color-bg-list;
+        display: flex;
+        position: relative;
+        align-items: center;
+        transition-duration: .25s;
+        &:hover {
+            background-color: $color-bg-list-hover;
+            span:first-child {
+                color:$color-icon-list-hover;
+            }
+        }
+        &:before {
+            counter-increment: compteListe 1;
+            content: counter(compteListe) " ";
+            background: $color-bg-num;
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $color-num-list;
+            position: absolute;
+            left: -.75rem;
+        }
+        span {
+            font-weight: 500;
+            &:first-child {
+                margin:0 1.5rem 0 1rem;
+                color: $color-icon-list;
+                font-weight: 900;
+            }
+        }
+    }
+}
