@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-@import "base";
-@import "animations/animations";
-@import "cta/cta";
-@import "header/header";
-@import "hero/hero";
-@import "fonctions/fonctions";
-@import "restaurants/restaurants";
-@import "menu/menu";
-@import "footer/footer";
+/* Base */
+@import "./base/base";
+@import "./base/animations";
+
+
+/* Components */
+@import "./components/buttons";
+
+
+/* Pages */
+@import "./pages/homepage";
+@import "./pages/restaurants";
