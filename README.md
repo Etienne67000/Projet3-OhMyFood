@@ -58,9 +58,9 @@ Les effets accessibles au clic ou au survol sont visibles sur la maquette. Ils d
   - Secondaire : #FF79DA
   - Tertiaire : #99E2D0
 
-## Note du projet
-- L'intégration de la maquette à été réalisée sur l'éditeur [Brackets](http://brackets.io/) sans plugins.
-- La convention de nommage utilisée est BEM.
+## Note du projett
+- L'intégration de la maquette à été réalisée sur l'éditeur  Visual Studio.
+La convention de nommage utilisée est BEM.
 - Le workflow Git utilisé est Gitflow.
 - Les fichiers Sass sont morcelés pour une codebase plus organiser.
 - Les iconographies utilisées viennent du site [Font Awesome](https://fontawesome.com/).
