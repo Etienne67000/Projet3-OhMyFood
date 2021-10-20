@@ -60,7 +60,6 @@ Les effets accessibles au clic ou au survol sont visibles sur la maquette. Ils d
 
 ## Note du projett
 - L'intégration de la maquette à été réalisée sur l'éditeur  Visual Studio.
-La convention de nommage utilisée est BEM.
-- Le workflow Git utilisé est Gitflow.
+- La convention de nommage utilisée est BEM.
 - Les fichiers Sass sont morcelés pour une codebase plus organiser.
 - Les iconographies utilisées viennent du site [Font Awesome](https://fontawesome.com/).
