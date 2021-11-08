@@ -235,6 +235,26 @@ a {
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
 }
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border: none;
+    border-radius: 100px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .btn__input checked {
+    background: linear-gradient(to bottom, rgba(255, 121, 218, 0.8) 0%, rgba(147, 86, 220, 0.8) 100%);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.4);
+  }
+}
 /* Pages */
 /* Loader */
 .loader__section {
@@ -476,6 +496,7 @@ a {
 .restaurants__card__wrapper-icon--1 {
   background: -webkit-linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .restaurants__card__wrapper-icon--2 {
@@ -505,7 +526,7 @@ a {
 .background__section {
   z-index: -1;
 }
-.background__img {
+.background__wrapper .background__img {
   width: 100%;
   height: 20rem;
   position: absolute;
@@ -570,6 +591,7 @@ a {
 .menu__header__wrapper-icon--1 {
   background: -webkit-linear-gradient(#FF79DA, #9356DC);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .menu__header__wrapper-icon--2 {
@@ -653,6 +675,14 @@ a {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+.menu__entries__card__header__subtitle:hover {
+  /*! height: 100%; */
+  /*! font-weight: 300; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 82%;
 }
 .menu__entries__card__price {
   display: flex;
@@ -777,6 +807,14 @@ a {
   white-space: nowrap;
   overflow: hidden;
 }
+.menu__dishes__card__header__subtitle:hover {
+  /*! height: 100%; */
+  /*! font-weight: 300; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 82%;
+}
 .menu__dishes__card__price {
   display: flex;
   align-items: flex-end;
@@ -889,6 +927,14 @@ a {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+}
+.menu__desserts__card__header__subtitle:hover {
+  /*! height: 100%; */
+  /*! font-weight: 300; */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 82%;
 }
 .menu__desserts__card__price {
   display: flex;
